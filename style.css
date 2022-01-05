@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Indie+Flower&family=Quicksand:wght@300&display=swap');
+body {
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 60px;
+    text-align: center;
+}
+
+#image {
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+nav {
+    background-color: #333;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 40px;
+}
+
+.nav-item {
+    display: inline;
+    padding: 20px 30px;
+    margin: 0 30px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #333;
+}
+
+.nav-item a {
+    color: white;
+}
+
+.nav-list :hover {
+    background-color: lightgreen;
+    transition: all 200ms ease-in;
+}
+
+.facts {
+    text-align: center;
+    width: 700px;
+    border: solid #333 2px;
+    padding: 20px;
+    margin: 40px auto 40px auto;
+}
+
+.facts-h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
