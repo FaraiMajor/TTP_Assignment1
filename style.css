@@ -3,12 +3,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Indie+Flower&family=Quicksand:wght@300&display=swap');
 body {
     margin: 0;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./images/background.jpeg);
 }
 
 h1 {
     font-family: 'Amatic SC', cursive;
+    font-weight: 900;
     font-size: 60px;
     text-align: center;
+    color: whitesmoke;
 }
 
 #image {
@@ -38,8 +44,12 @@ nav {
     color: white;
 }
 
+a {
+    text-decoration: none;
+}
+
 .nav-list :hover {
-    background-color: lightgreen;
+    background-color: gold;
     transition: all 200ms ease-in;
 }
 
@@ -47,11 +57,25 @@ nav {
     text-align: center;
     width: 700px;
     border: solid #333 2px;
+    border-radius: 15px;
     padding: 20px;
-    margin: 40px auto 40px auto;
+    margin: 40px auto;
+    color: white;
 }
 
 .facts-h2 {
     text-align: center;
-    margin-bottom: 10px;
+    margin: 0 20px 10px;
+    color: whitesmoke;
+}
+
+.facts :hover {
+    background-color: #333;
+    transition: all 200ms ease-in;
+}
+
+.facts-h2 h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 50px;
 }
