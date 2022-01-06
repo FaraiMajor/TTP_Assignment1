@@ -1,42 +1,97 @@
-h1{
-  text-align: center;
-  font-family: fantasy;
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Indie+Flower&family=Quicksand:wght@300&display=swap');
+body {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 900;
+    font-size: 22px;
+    color: whitesmoke;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/background.jpeg);
 }
 
-.block1 > img{
-  width: 30%;
-  height: 30%;
-  margin: 0 35%;
+nav {
+    display: flex;
+    background-color: #333;
+    height: 80px;
+    align-items: center;
 }
 
-.block2{
-  border: 2px solid  black;
-  text-align: center;
-  height: auto;
-  width: 70%;
-  padding: 3% 9%;
-  margin-top: 2%;
-  margin-left: 5%;
-  font-size: 18px;
+nav img {
+    width: 60px;
+    margin: 0 10px
 }
 
-.block3{
-  text-align: center;
-  padding: 5px 5px;
+nav .save-panda {
+    margin-right: auto;
+    color: whitesmoke;
+    font-weight: bolder;
 }
 
-.menu > li > a{
-  text-decoration: none;
-  color: black;
+nav a {
+    color: whitesmoke;
+    margin-right: 25px;
+    background-color: #333;
+    padding: 10px 15px;
+    text-decoration: none;
 }
 
-.menu li{
-  font-size: 20px;
-  display: inline-block;
-  margin-left: 20px;
+nav a:hover {
+    background-color: gold;
+    transition: all 200ms ease-in;
 }
 
-footer{
-  text-align:center ;
-  margin-top: 6%;
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+h1 {
+    text-align: center;
+    font-family: fantasy;
+}
+
+.block1>img {
+    display: block;
+    margin: 0 auto;
+    width: 900px;
+    border: solid #333 1px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+.block2 {
+    text-align: center;
+    height: auto;
+    width: 70%;
+    border: solid #333 1px;
+    border-radius: 15px;
+    padding: 3% 9%;
+    margin-top: 2%;
+    margin-left: 5%;
+}
+
+.block3 {
+    text-align: center;
+    padding: 5px 5px;
+}
+
+.menu>li>a {
+    text-decoration: none;
+}
+
+.menu li {
+    font-size: 20px;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+footer {
+    bottom: 0;
+    background-color: #445e7f;
+    color: wheat;
+    width: 100%;
+    text-align: center;
+    font-size: 17px;
 }
