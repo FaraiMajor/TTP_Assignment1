@@ -1,132 +1,145 @@
-@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Indie+Flower&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Indie+Flower&family=Quicksand:wght@300&display=swap');
-body {
-    margin: 0;
-    font-family: 'Work Sans', sans-serif;
-    font-weight: 900;
-    font-size: 22px;
-    color: whitesmoke;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/background.jpeg);
-}
-
-nav {
-    display: flex;
-    background-color: #333;
-    height: 80px;
-    align-items: center;
-}
-
-nav img {
-    width: 60px;
-    margin: 0 10px
-}
-
-nav .save-panda {
-    margin-right: auto;
-    color: whitesmoke;
-    font-weight: bolder;
-}
-
-nav a {
-    color: whitesmoke;
-    margin-right: 25px;
-    background-color: #333;
-    padding: 10px 15px;
-    text-decoration: none;
-}
-
-nav a:hover {
-    background-color: gold;
-    transition: all 200ms ease-in;
-}
-
-.sticky {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-}
-
-h1 {
-    text-align: center;
-    font-family: fantasy;
-}
-
-#image {
-    display: block;
-    margin: 0 auto;
-    width: 400px;
-    border: solid #333 1px;
-    border-radius: 15px;
-    margin-bottom: 10px;
-}
-
-.facts {
-    text-align: center;
-    width: 700px;
-    border: solid #333 2px;
-    border-radius: 15px;
-    padding: 20px;
-    margin: 50px auto;
-    color: white;
-}
-
-.facts-h2 {
-    text-align: center;
-    margin: 0 20px 10px;
-    color: whitesmoke;
-}
-
-.facts :hover {
-    background-color: #333;
-    transition: all 200ms ease-in;
-}
-
-.facts-h2 h2 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
-    font-size: 50px;
-}
-
-footer {
-    bottom: 0;
-    background-color: #445e7f;
-    color: wheat;
-    width: 100%;
-    text-align: center;
-    font-size: 17px;
-}
-
-.block1 {
-    text-align: center;
-    margin-top: 75px;
-}
-
-.left1 {
-    text-align: left;
-    margin-left: 125px;
-    margin-bottom: 25px;
-    margin-top: 100px;
-}
-
-.right1 {
-    text-align: right;
-    margin-right: 200px;
-    margin-top: 25px;
-}
-
-.donate {
-    text-align: center;
-    margin: 50px 200px;
-    padding: 20px 50px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    border-radius: 12px;
-}
-
-.action {
-    text-align: center;
-    margin: 50px 200px;
-    padding: 20px 50px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    border-radius: 12px;
-}
+        @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Indie+Flower&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Indie+Flower&family=Quicksand:wght@300&display=swap');
+        body {
+            margin: 0;
+            font-family: 'Work Sans', sans-serif;
+            font-weight: 900;
+            font-size: 22px;
+            color: whitesmoke;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/background.jpeg);
+        }
+        
+        nav {
+            display: flex;
+            background-color: #333;
+            height: 80px;
+            align-items: center;
+        }
+        
+        nav img {
+            width: 60px;
+            margin: 0 10px
+        }
+        
+        nav .save-panda {
+            margin-right: auto;
+            color: whitesmoke;
+            font-weight: bolder;
+        }
+        
+        nav a {
+            color: whitesmoke;
+            margin-right: 25px;
+            background-color: #333;
+            padding: 10px 15px;
+            text-decoration: none;
+        }
+        
+        nav a:hover {
+            background-color: gold;
+            transition: all 200ms ease-in;
+        }
+        
+        .sticky {
+            position: -webkit-sticky;
+            position: sticky;
+            top: 0;
+        }
+        
+        h1 {
+            margin-top: 10px;
+            text-align: center;
+            font-family: fantasy;
+        }
+        
+        #image {
+            display: block;
+            margin: 0 auto;
+            width: 400px;
+            border: solid #333 1px;
+            border-radius: 15px;
+            margin-bottom: 10px;
+        }
+        
+        .block1 {
+            text-align: center;
+            width: 100%;
+        }
+        
+        .para {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+        }
+        
+        .para .left1 {
+            border: #333 solid 0.5px;
+            border-radius: 15px;
+            width: 400px;
+            padding: 10px;
+            margin: 40px 40px;
+        }
+        
+        .para .right1 {
+            border: #333 solid 1px;
+            border-radius: 15px;
+            width: 400px;
+            padding: 10px;
+            margin: 0 40px;
+        }
+        
+        .fa-heart {
+            font-size: 24px;
+            margin-left: 5px;
+            /* color: red; */
+        }
+        
+        .donate {
+            text-align: center;
+            margin: 0 20px 0 25px;
+            padding: 20px 60px;
+            font-size: 24px;
+            font-weight: bold;
+            background-color: whitesmoke;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            border: green solid;
+            border-radius: 12px;
+        }
+        
+        .donate:hover {
+            border: gold solid 2px;
+            background-color: rgb(114, 141, 65);
+            color: white;
+            transition: all 200ms ease-in;
+        }
+        
+        .action {
+            text-align: center;
+            margin: 0 40px;
+            padding: 20px 60px;
+            font-size: 24px;
+            font-weight: bold;
+            background-color: whitesmoke;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            border: rgb(0, 89, 255) solid;
+            border-radius: 12px;
+        }
+        
+        .action:hover {
+            border: gold solid 2px;
+            background-color: rgb(89, 114, 196);
+            color: white;
+            transition: all 200ms ease-in;
+        }
+        
+        footer {
+            margin-top: 65px;
+            bottom: 0;
+            background-color: #445e7f;
+            color: wheat;
+            width: 100%;
+            text-align: center;
+            font-size: 17px;
+        }
