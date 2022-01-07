@@ -55,8 +55,8 @@
         
         #image {
             display: block;
-            margin: 40px auto;
-            width: 400px;
+            margin: 20px auto;
+            width: 450px;
             border: solid #333 1px;
             border-radius: 15px;
             box-shadow: 1px 1px 5px black;
@@ -78,7 +78,7 @@
             border-radius: 15px;
             width: 400px;
             padding: 10px;
-            margin: 50px 40px;
+            margin: 30px 40px;
             text-shadow: 2px 2px 4px rgb(163, 148, 62);
             border: solid #333 1px;
             box-shadow: 1px 1px 5px black;
@@ -89,7 +89,7 @@
             border-radius: 15px;
             width: 400px;
             padding: 10px;
-            margin: 50px 40px;
+            margin: 30px 40px;
             text-shadow: 2px 2px 4px rgb(163, 148, 62);
             border: solid #333 1px;
             box-shadow: 1px 1px 5px black;
